@@ -1,0 +1,12 @@
+﻿<Application x:Class="DemoVariant7.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DemoVariant7"
+             StartupUri="Pages/Autorization.xaml">
+    <Application.Resources>
+        <BitmapImage UriSource="Resources/logo.png" x:Key="logo"/>
+        <BitmapImage UriSource="Resources/picture.png" x:Key="picture"/>
+        <BitmapImage UriSource="Resources/icon.ico" x:Key="icon"/>
+        <FontFamily x:Key="MainFont">Comic Sans MS</FontFamily>
+    </Application.Resources>
+</Application>

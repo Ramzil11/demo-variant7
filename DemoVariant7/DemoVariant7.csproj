@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\D344Y7.jpg" />
+    <None Remove="Resources\D378D3.jpg" />
+    <None Remove="Resources\E245R5.jpg" />
+    <None Remove="Resources\E530Y6.jpg" />
+    <None Remove="Resources\F346G5.jpg" />
+    <None Remove="Resources\F893T5.jpg" />
+    <None Remove="Resources\G832G6.jpg" />
+    <None Remove="Resources\icon.ico" />
+    <None Remove="Resources\J432E4.jpg" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\picture.png" />
+    <None Remove="Resources\V324R5.jpg" />
+    <None Remove="Resources\А112Т4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\picture.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\D344Y7.jpg" />
+    <Resource Include="Resources\D378D3.jpg" />
+    <Resource Include="Resources\E245R5.jpg" />
+    <Resource Include="Resources\E530Y6.jpg" />
+    <Resource Include="Resources\F346G5.jpg" />
+    <Resource Include="Resources\F893T5.jpg" />
+    <Resource Include="Resources\G832G6.jpg" />
+    <Resource Include="Resources\icon.ico" />
+    <Resource Include="Resources\J432E4.jpg" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\V324R5.jpg" />
+    <Resource Include="Resources\А112Т4.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="DemoVariant7.Autorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoVariant7"
+        mc:Ignorable="d"
+        Title="Авторизация" Icon="{StaticResource icon}" FontFamily="{StaticResource MainFont}" MinHeight="300" MinWidth="450" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition MaxWidth="400"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Height="60" Margin="0,0,0,120">
+            <Label Content="Логин"/>
+            <TextBox x:Name="loginTexBox" Height="30"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Height="60" Margin="0,0,0,0">
+            <Label Content="Пароль"/>
+            <TextBox x:Name="passwordTexBox" Height="30"/>
+        </StackPanel>
+        <Button Grid.Column="1" Height="30" Margin="0,120,0,0" Content="Войти" Click="Button_Click"/>
+        <TextBlock Grid.Column="1" Height="30" Margin="0,180,0,0" HorizontalAlignment="Center" x:Name="selectButton">
+            <Hyperlink  x:Name="selectGuest" Click="selectGuest_Click" >Войти как гость</Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>
