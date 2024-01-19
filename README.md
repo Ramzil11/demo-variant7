@@ -23,3 +23,7 @@ git clone git@github.com:Ramzil11/demo-variant7.git
 ## Авторы
 
 * Ибрагимво Рамзиль Ринатович 20П3
+
+```
+Scaffold-DbContext "Server=localhost;User=root;Password=1234;Database=trade" "Pomelo.EntityFrameworkCore.MySql" -OutputDir "Model"
+```
